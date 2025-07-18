@@ -109,7 +109,7 @@ const BookingForm = () => {
 
     try {
       // Use environment variable for API URL, fallback to local development
-      const apiUrl = import.meta.env.VITE_API_URL || '/api/send-quote'
+      const apiUrl = "/api/send-quote"
       
       const response = await axios.post(apiUrl, formData)
       
