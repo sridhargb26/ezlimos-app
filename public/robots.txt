@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://your-domain.vercel.app/sitemap.xml
+
+# Block sensitive files
+Disallow: /api/
+Disallow: /.env
+Disallow: /package.json
+Disallow: /node_modules/
+
+# Allow important pages
+Allow: /*.css
+Allow: /*.js
+Allow: /*.png
+Allow: /*.jpg
+Allow: /*.svg
+Allow: /*.ico
+
+# Crawl-delay (optional)
+Crawl-delay: 1 
